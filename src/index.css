@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#checkmark {
+  visibility: hidden;
+  color: green;
+  z-index: 1;
+}
+
+#checkmark.show {
+  visibility: visible;
+  -webkit-animation: fadeout 2s 0.5s;
+  animation: fadeout 2s 0.5s;
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
