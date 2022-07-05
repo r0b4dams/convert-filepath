@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.MuiButton-endIcon {
+  position: absolute;
+  right: 35px;
+}
+
 #root {
   height: 100vh;
   display: flex;
