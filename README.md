@@ -4,4 +4,4 @@
 
 A simple app to convert filepaths between iOS and Windows
 
-Check it out [here](r0b4dams.github.io/convert-filepath)
+Check it out [here](https://r0b4dams.github.io/convert-filepath/)!
